@@ -118,6 +118,8 @@ header{
 .logo-and-name{
     display: flex;
     width: auto;
+    height: 100%;
+
 }
 
 .logo-head svg{
@@ -136,10 +138,6 @@ header{
     
 }
 
-.website-name a{
-    display: flex;
-    margin: auto;
-}
 
 .web-name h1{
     font-size: 1.4em;
