@@ -136,6 +136,11 @@ header{
     
 }
 
+.website-name a{
+    display: flex;
+    margin: auto;
+}
+
 .web-name h1{
     font-size: 1.4em;
     font-family: var(--font-pixel);
