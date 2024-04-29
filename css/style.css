@@ -288,10 +288,11 @@ p{
 .container-text-h4{
     text-align: center;
     padding-top: 1em;
-    font-size: 1.5;
+    font-size: 1.5em;
     font-weight: 700;
     font-family: var(--font-Russo1);
     letter-spacing: 0.2em;
+    background-clip: border-box;
     color: white;
     background: #C5C5FF;
     background: repeating-radial-gradient(circle farthest-corner at bottom right, #C5C5FF 0%, #EBBFFF 29%);
@@ -364,6 +365,7 @@ p{
     text-align: center;
     padding-top: 2em;
     font-size: 1.5em;
+    background-clip: border-box;
     background: #C5C5FF;
     background: repeating-radial-gradient(circle farthest-corner at bottom right, #C5C5FF 0%, #EBBFFF 29%);
     -webkit-background-clip: text;
@@ -373,8 +375,8 @@ p{
 .third-container-text-1 h3{
     font-family: var(--font-Russo1);
     letter-spacing: 0.2em;
-    background: #9400CD;
-    background: #EE00FF;
+    background: #C5C5FF;
+    background-clip: border-box;
     background: repeating-radial-gradient(circle farthest-corner at bottom right, #C5C5FF 0%, #EBBFFF 29%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -466,6 +468,7 @@ p{
     font-size: 2em;
     text-align: center;
     padding-bottom: 0;
+    background-clip: border-box;
     background: #C5C5FF;
     font-family: var(--font-Russo1);
     letter-spacing: 0.2em;
@@ -609,14 +612,13 @@ footer{
 .logo-foot{
     display: flex;
     flex-wrap: wrap;
-    align-contents: center;
+    align-items: center;
     height: 60px;
     animation: logo-animation 5s cubic-bezier(0.76, 0, 0.24, 1) 0s normal both;
 
 }
 
 .logo-foot svg{
-
     width: auto;
     height: 85%;
 }
@@ -1345,6 +1347,7 @@ footer{
     text-align: center;
     font-family: var(--font-Russo1);
     font-weight: 800;
+    background-clip: border-box;
     background: repeating-radial-gradient(circle farthest-corner at bottom right, #C5C5FF 0%, #EBBFFF 29%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1745,6 +1748,7 @@ input:focus~label, input:valid~label{
         font-size: 2em;
         font-family: var(--font-Russo1);
         font-weight: 800;
+        background-clip: border-box;
         background: #C5C5FF;
         background: repeating-radial-gradient(circle farthest-corner at bottom right, #C5C5FF 0%, #EBBFFF 29%);
         -webkit-background-clip: text;
@@ -1800,6 +1804,7 @@ input:focus~label, input:valid~label{
                 font-family: var(--font-Russo1);
                 padding-left: 0.5em;
                 transition: 0.5s;
+                background-clip: border-box;
                 background: #C5C5FF;
                 background: repeating-radial-gradient(circle farthest-corner at bottom right, #a3a3a3 0%, #afafaf 29%);
                 -webkit-background-clip: text;
@@ -1832,6 +1837,7 @@ input:focus~label, input:valid~label{
 
     a:hover div h6{
         background: #C5C5FF;
+        background-clip: border-box;
         background: repeating-radial-gradient(circle farthest-corner at bottom right, #C5C5FF 0%, #EBBFFF 29%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -2570,4 +2576,3 @@ a[title]:hover::after {
     animation: tooltip-horz .5s ease-out forwards;
     }
 
-    
