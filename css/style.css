@@ -108,6 +108,7 @@ p{
 .logo-head{
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
     align-content: center;
     animation: logo-animation 5s cubic-bezier(0.76, 0, 0.24, 1) 0s normal both;
 
@@ -612,6 +613,8 @@ footer{
 }
 
 .logo-foot svg{
+    display: flex;
+    flex-wrap: wrap;
     width: auto;
     height: 85%;
 }
