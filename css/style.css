@@ -607,14 +607,16 @@ footer{
 }
 
 .logo-foot{
+    display: flex;
+    flex-wrap: wrap;
+    align-contents: center;
     height: 60px;
     animation: logo-animation 5s cubic-bezier(0.76, 0, 0.24, 1) 0s normal both;
 
 }
 
 .logo-foot svg{
-    display: flex;
-    flex-wrap: wrap;
+
     width: auto;
     height: 85%;
 }
