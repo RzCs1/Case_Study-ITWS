@@ -106,6 +106,8 @@ p{
 }
 
 .logo-head{
+    display: flex;
+    flex-wrap: wrap;
     align-content: center;
     animation: logo-animation 5s cubic-bezier(0.76, 0, 0.24, 1) 0s normal both;
 
@@ -124,6 +126,8 @@ p{
 }
 
 .website-name{
+    display: flex;
+    flex-wrap: wrap;
     align-content: center;
     width: 100%;
     padding-left: .5em;
@@ -152,6 +156,8 @@ p{
 
 
 .button-getstarted{
+    display: flex;
+    flex-wrap: wrap;
     align-content: center;
     height: 100%;
     width: auto;
@@ -1411,7 +1417,11 @@ footer{
             top: 0; left: 0;
             width: 100%; height: 100%;
             object-fit: cover;
+            transform: translateY(1em);
+            transition: 0.5s;
             }
+
+
         }
         
             .cardContent-abt {
@@ -1479,7 +1489,7 @@ footer{
     }
 
     a:link{
-        color: white;
+        color: rgb(171, 171, 171);
     }
 
     a:active{
@@ -1730,6 +1740,13 @@ input:focus~label, input:valid~label{
         font-size: 2em;
         font-family: var(--font-Russo1);
         font-weight: 800;
+        background: #C5C5FF;
+        background: repeating-radial-gradient(circle farthest-corner at bottom right, #C5C5FF 0%, #EBBFFF 29%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+        -webkit-text-stroke-width: 0.2px;
+        -webkit-text-stroke-color: white;
     }
 
 }
@@ -2087,6 +2104,10 @@ input:focus~label, input:valid~label{
 
 .social-media-links-icons svg:hover{
     opacity: 1;
+}
+
+.card-abt:hover img{
+    scale: 1.1;
 }
 
 
@@ -2544,4 +2565,4 @@ a[title]:hover::after {
     animation: tooltip-horz .5s ease-out forwards;
     }
 
-
+    
