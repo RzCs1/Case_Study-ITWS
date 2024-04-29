@@ -132,6 +132,7 @@ p{
     align-content: center;
     width: 100%;
     padding-left: .5em;
+    justify-content: center;
 }
 
 .web-name{
@@ -2576,3 +2577,4 @@ a[title]:hover::after {
     animation: tooltip-horz .5s ease-out forwards;
     }
 
+    
